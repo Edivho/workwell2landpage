@@ -16,7 +16,7 @@ export default function App() {
   const [isPartnerOpen, setIsPartnerOpen] = useState<boolean>(false);
   const [expandedFaqId, setExpandedFaqId] = useState<string | null>(null);
   const [showRedirectToast, setShowRedirectToast] = useState<boolean>(false);
-  const BOOKING_APP_URL = "http://localhost:3001";
+  const BOOKING_APP_URL = "https://workwell2booking.vercel.app";
 
   const handleSearchClick = () => {
     try {
@@ -125,7 +125,7 @@ export default function App() {
                 {/* Large Rounded Main Hero image */}
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-[#DCC3AA]/30 group aspect-video lg:aspect-[4/3] bg-gray-100">
                   <img 
-                    src="/src/assets/images/coffee_workspace_hero_1782823233777.jpg" 
+                    src="/src/assets/images/coffee_workspace_hero_1782823233777.png" 
                     alt="Premium Modern Coffee Shop Workspace"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102"
