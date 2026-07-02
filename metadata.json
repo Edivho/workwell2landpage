@@ -1,0 +1,6 @@
+{
+  "name": "Work Well – Open Office Space",
+  "description": "Modern and premium workspace sharing platform in Indonesia. Ubah ruang kosong Anda menjadi peluang pendapatan, atau temukan ruang kerja yang nyaman di coffee shop, lounge, dan ruang komersial pilihan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
